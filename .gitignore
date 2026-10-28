@@ -1,0 +1,62 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+## NuGet
+*.nupkg
+**/packages/*
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Visual Studio
+.vs/
+*.rsuser
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## User-specific files
+*.user
+*.dbmdl
+*.jfm
+
+## OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Upload directory (user-uploaded images at runtime)
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+
+## Logs
+logs/
+*.log
+
+## EF Core Migrations — keep these tracked
+# Migrations/
+
+## Secrets / environment-specific
+appsettings.Production.json
